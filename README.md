@@ -69,9 +69,9 @@ The package files are written to `packages/64/` and `packages/32/`. SoCGenius64 
 
 ## Install from Cydia
 
-SoC Genius is distributed through the [pooplabs APT repository](https://github.com/poopterm-labs/pooplabs-apt-repo). Add this source in Cydia under **Sources → Edit → Add**:
+SoC Genius is distributed through the [pooplabs APT repository](https://github.com/poopware-laboratories/pooplabs-apt-repo). Add this source in Cydia under **Sources → Edit → Add**:
 
-`https://poopterm-labs.github.io/pooplabs-apt-repo/`
+`https://poopware-laboratories.github.io/pooplabs-apt-repo/`
 
 The default SoC Genius 64 package targets rootful ARM64 jailbreaks. Rootless ARM64 packages can be built with `THEOS_PACKAGE_SCHEME=rootless`. The classic package is `com.socgenius.app`; the ARM64 package is `com.socgenius64.app`.
 
